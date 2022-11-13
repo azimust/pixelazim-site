@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>pixelazim</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="top" class="header">
+            <div class="navbar">
+                <nav class="navbar__container">
+                    <a class="navbar__logo" href="#top">pixel<br>azim</a>
+                    <div class="navbar__menu">
+                        <li>
+                            <a class="color" href="#top">Обо мне</a>
+                        </li>
+                        <li>
+                            <a class="color2" href="#body-swiper">Свайпер</a>
+                        </li>
+                        <li>
+                            <a class="color" href="#body-timeline">Цели</a>
+                        </li>
+                        <li>
+                            <a class="color2" href="#footer">Контакты</a>
+                        </li>
+                    </div>
+                    <div class="navbar__burger">
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+            <div class="me">
+                <div class="me__container">
+                    <video width="390" height="220" autoplay muted controls loop class="me__video">
+                        <source src="video/videoplayback.mp4">
+                    </video>
+                    <div class="me__text">
+                        <h1 >I'am <span class="typed"></span></h1>
+                        <p>Родился в г.Талас,в 6 лет переехал в г.Каракол. В 7 лет пошел в школу им.Горького, учился там с 1 по 9 класс, после поступил в колледж им К.Тыныстанова </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="body">
+            <section id="body-swiper" class="body__swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+    
+                        <div class="card swiper-slide">
+                            <div class="card_image"><img src="img/anon.webp" alt=""></div>
+                            <div class="card_content">
+                                <div class="card_title">Анонимус</div>
+                                <div class="card_name">.....</div>
+                                <p class="card_text">Анонимный парень</p>
+                                <button class="card_button">Узнать</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image"><img src="img/boy.jpg" alt=""></div>
+                            <div class="card_content">
+                                <div class="card_title">Создатель</div>
+                                <div class="card_name">Азимбек</div>
+                                <p class="card_text">Студент</p>
+                                <button class="card_button">Открыть</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image"><img src="img/anon.webp" alt=""></div>
+                            <div class="card_content">
+                                <div class="card_title">Анонимус-2</div>
+                                <div class="card_name">.....</div>
+                                <p class="card_text">Анонимный парень</p>
+                                <button class="card_button">Узнать</button>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </section>
+            <section id="body-timeline" class="body__timeline">
+                <div class="timeline__section">
+                    <h1><span class="typed1"></span></h1>
+                    <div class="timeline__container">
+    
+                        <div class="tl__card">
+                            <div class="tl__info">
+                                <h3 class="tl__title">Цель 1</h3>
+                                <p>Расширить свой кругозор</p>
+                            </div>
+                        </div>
+                        <div class="tl__card">
+                            <div class="tl__info">
+                                <h3 class="tl__title">Цель 2</h3>
+                                <p >Закончить колледж с красным дипломом</p>
+                            </div>
+                        </div>
+                        <div class="tl__card">
+                            <div class="tl__info">
+                                <h3 class="tl__title">Цель 3</h3>
+                                <p>Стать программистом</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer id="footer" class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__href">
+                    <a href="" class="inst">
+                        instagram
+                    </a>
+                    <a href="" class="wh">
+                        whatsapp
+                    </a>
+                    <a href="" class="yt">
+                        youtube
+                    </a>
+                </div>
+                    <a href="#top" class="footer__returner">RETURN TO TOP</a>
+                <div  class="footer__text">
+                    <p>pixelazim</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/typed.js"></script>
+
+<script src="js/burger.js"></script>
+
+</html>
